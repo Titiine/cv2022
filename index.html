@@ -2,19 +2,146 @@
 <html lang="fr">
 
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="assets/css/normalize.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
-<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-16x16.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CV 2022</title>
 </head>
 
 <body>
+    <header>
+        <figure>
+            <img src="assets/img/dev-worker_x2100.jpg" alt="Photo deco"
+                srcset="assets/img/dev-worker_x2100.jpg 2100w, assets/img/dev-worker_x1550.jpg 1550w, assets/img/dev-worker_x775.jpg 775w, assets/img/dev-worker_x390.jpg 390w"
+                sizes="(min-width:400) 775px, (min-width:960) 1550px, (min-width:1600) 2100px, 100vw">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Compétences</a></li>
+                <li><a href="#">Expériences</a></li>
+                <li><a href="#">Formations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Développeur front-end</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>A propos</h2>
+            <div class="apropos__foto">
+                <figure><img src="https://via.placeholder.com/150?text=Photo profil" alt="Photo profil">
+                </figure>
+            </div>
+            <div class="description">
+                <ul>
+                    <li>Assma</li>
+                    <li>Ben</li>
+                    <li><a href="mailto:userXXX@gmail.com">Me contacter</a></li>
+                    <li><a href="tel:+12345678">12345678</a></li>
+                    <li><address>Rue des tilleuls 92140 Bologne Billancourt</address></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Compétences</h2>
+            <table>
+                <caption>Mes compétences front-end</caption>
+                <thead>
+                  <tr>
+                    <th>Langage</th>
+                    <th>Progression</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td><progress class="file1" max="100" value="70"> 70% </progress></td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td><progress class="file2" max="100" value="30"> 30% </progress></td>
+                  </tr>
+                  <tr>
+                    <td>Git</td>
+                    <td><progress class="file3" max="100" value="40"> 40% </progress></td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td><progress class="file4" max="100" value="10"> 10% </progress></td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tfoot>
+              </table>
+        </section>
+        <section>
+            <h2>Expériences</h2>
+            <article>
+                <h3>Dassault systèmes</h3>
+                <h4>2015 - 2021</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis labore quaerat nisi possimus maxime mollitia nulla, incidunt aperiam natus excepturi dolorem, quasi ut iusto quia veritatis ipsa quod voluptates.
+                Officiis non provident delectus distinctio obcaecati sed rerum totam consectetur similique hic! Praesentium, aperiam necessitatibus? Dolores, atque commodi esse id corporis nemo totam quia ab, praesentium, eum cupiditate libero consequatur.</p>
+            </article>
+            <article>
+                <h3>WeYield</h3>
+                <h4>2014 - 2015</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint quia laudantium voluptatem doloribus alias, quidem voluptates vero tenetur officiis cum quod ut adipisci fugit ratione quam molestias fugiat vel!
+                Sunt deleniti ipsa odio! Labore quas consequatur optio blanditiis, est at maiores, harum a necessitatibus dolore deserunt eos numquam sunt nobis ipsa doloribus, odit qui minus iure eveniet quasi aliquam?</p>
+            </article>
+            <article>
+                <h3>Murex</h3>
+                <h4>2014</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit modi, harum exercitationem impedit excepturi sunt debitis dignissimos libero repellendus culpa ipsa deleniti dolorum odio enim ex. Suscipit, tenetur ipsa! Unde.
+                Dolores atque itaque praesentium voluptate ut neque facere tempore ratione culpa totam perspiciatis veritatis eum soluta numquam cumque delectus, similique quaerat earum perferendis, eaque quis, quibusdam porro deleniti quasi. Modi?</p>
+            </article>
+        </section>
+        <section>
+            <h2>Formations</h2>
+            <article>
+                <h3>Ecole nationale supéreure d'informatique pour l'industrie et l'entreprise (ENSIIE)</h3>
+                <h4>3 ans</h4>
+                <h5>Evry</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ad sit officia dolorum minus obcaecati! Dolorum assumenda labore fuga vitae laudantium tempore, maiores quod facere nisi adipisci autem modi provident!
+                Ipsam, omnis harum inventore fuga, cum dolorum, voluptates sunt quidem sed labore porro. Repellendus, commodi eius sit ullam exercitationem ad. Voluptatum delectus laudantium recusandae quo repudiandae modi corporis quaerat dignissimos.</p>
+            </article>
+            <article>
+                <h3>MSc, The University of Manchestrer</h3>
+                <h4>1 an</h4>
+                <h5>Machester</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quaerat deleniti quam. Perferendis recusandae eaque beatae obcaecati, incidunt ducimus quasi voluptates facere nesciunt. Ad officiis commodi vel expedita, consequatur at!
+                Doloribus illo, ducimus ratione blanditiis esse ullam pariatur quaerat amet atque harum provident sed dolore ipsam non rerum cumque doloremque magni in quod neque praesentium ea recusandae! Ad, maxime nihil?</p>
+            </article>
+            <article>
+                <h3>Greta</h3>
+                <h4>3 mois</h4>
+                <h5>Boulogne-Bilancourt</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ratione cupiditate. Fugit quibusdam rerum, eius sint porro molestiae minus. Facere quos sed eligendi, consequatur iure fugit repudiandae repellat error illum!
+                Voluptates sit fuga ipsa ipsum aspernatur ex debitis. Tenetur amet omnis sunt quas nobis. Maiores eaque tempore minima voluptatem nemo assumenda, deserunt incidunt. Quibusdam mollitia libero magnam similique ipsum sunt.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social"><span><i class="fab fa-facebook"></i></span><span><i
+                    class="fab fa-linkedin"></i></span><span><i class="fab fa-twitter"></i></span>
+        </div>
+        <div class="copy">Copyright &#169;</div>
+        <div class="links"></div>
+    </footer>
 
 </body>
 

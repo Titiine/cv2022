@@ -1,25 +1,91 @@
-a:link {
-  color: goldenrod; }
-
-a:link {
-  color: goldenrod; }
-a:hover {
-  color: red; }
-a:active {
-  color: purple; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Regular-webfont.woff");
+  font-display: swap; }
+@font-face {
+  font-family: 'Playfair regular';
+  src: url("../fonts/playfair/static/PlayfairDisplay-Regular.ttf");
+  font-display: swap; }
+@font-face {
+  font-family: 'Playfair bold italic';
+  src: url("../fonts/playfair/static/PlayfairDisplay-BoldItalic.ttf");
+  font-display: swap; }
+@font-face {
+  font-family: 'Playfair bold';
+  src: url("../fonts/playfair/static/PlayfairDisplay-Bold.ttf");
+  font-display: swap; }
+@font-face {
+  font-family: 'Open sans regular';
+  src: url("../fonts/opensans/OpenSans-Regular.ttf");
+  font-display: swap; }
+@font-face {
+  font-family: 'Open sans bold italic';
+  src: url("../fonts/opensans/OpenSans-BoldItalic.ttf");
+  font-display: swap; }
+@font-face {
+  font-family: 'Open sans bold';
+  src: url("../fonts/opensans/OpenSans-Bold.ttf");
+  font-display: swap; }
+a {
+  color: #daa520; }
+  a:link {
+    color: goldenrod; }
+  a:hover {
+    color: #124DFE; }
+  a:active {
+    color: #124DFE; }
 
 figure {
   margin: 0; }
 
+ul {
+  list-style: none; }
+
+figure {
+  margin: 0; }
+
+header {
+  text-align: center; }
+  header img {
+    filter: grayscale(100); }
+
 nav {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: silver; }
   nav ul {
-    list-style: none;
+    margin: 0;
     display: flex;
     justify-content: space-around;
-    gap: 1em; }
+    gap: .5em; }
     nav ul li {
-      padding: 10px; }
+      background-color: #daa520;
+      padding: 15px 10px;
+      font-family: 'Roboto';
+      flex: 1 0 auto; }
+      nav ul li:hover {
+        background-color: white;
+        color: #daa520; }
+        nav ul li:hover a {
+          color: #daa520; }
+      nav ul li a {
+        color: white;
+        text-decoration: none; }
+
+h2 {
+  font-family: "Open sans regular";
+  color: #124DFE; }
+
+h1 {
+  font-size: 5vh;
+  font-family: playfair regular;
+  text-align: center;
+  color: #daa520;
+  font-size: 5vh; }
+
+/** Section A propos**/
+.container {
+  display: flex;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=style.css.map */
